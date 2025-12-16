@@ -21,20 +21,26 @@ export default function Header() {
             </span>
           </div>
 
-          <div className="hidden md:flex space-x-8">
-            <button onClick={() => scrollToSection('home')} className="text-gray-700 hover:text-orange-600 transition-colors font-medium">
+          <div className="hidden md:flex space-x-6 lg:space-x-8">
+            <button onClick={() => scrollToSection('home')} className="text-gray-700 hover:text-orange-600 transition-colors font-medium text-sm">
               Home
             </button>
-            <button onClick={() => scrollToSection('about')} className="text-gray-700 hover:text-orange-600 transition-colors font-medium">
+            <button onClick={() => scrollToSection('about')} className="text-gray-700 hover:text-orange-600 transition-colors font-medium text-sm">
               About
             </button>
-            <button onClick={() => scrollToSection('services')} className="text-gray-700 hover:text-orange-600 transition-colors font-medium">
+            <button onClick={() => scrollToSection('services')} className="text-gray-700 hover:text-orange-600 transition-colors font-medium text-sm">
               Services
             </button>
-            <button onClick={() => scrollToSection('menu')} className="text-gray-700 hover:text-orange-600 transition-colors font-medium">
+            <button onClick={() => scrollToSection('menu')} className="text-gray-700 hover:text-orange-600 transition-colors font-medium text-sm">
               Menu
             </button>
-            <button onClick={() => scrollToSection('contact')} className="text-gray-700 hover:text-orange-600 transition-colors font-medium">
+            <button onClick={() => scrollToSection('certificates')} className="text-gray-700 hover:text-orange-600 transition-colors font-medium text-sm">
+              Credentials
+            </button>
+            <button onClick={() => scrollToSection('testimonials')} className="text-gray-700 hover:text-orange-600 transition-colors font-medium text-sm">
+              Reviews
+            </button>
+            <button onClick={() => scrollToSection('contact')} className="text-gray-700 hover:text-orange-600 transition-colors font-medium text-sm">
               Contact
             </button>
           </div>
@@ -60,6 +66,12 @@ export default function Header() {
             </button>
             <button onClick={() => scrollToSection('menu')} className="block text-gray-700 hover:text-orange-600 transition-colors font-medium">
               Menu
+            </button>
+            <button onClick={() => scrollToSection('certificates')} className="block text-gray-700 hover:text-orange-600 transition-colors font-medium">
+              Credentials
+            </button>
+            <button onClick={() => scrollToSection('testimonials')} className="block text-gray-700 hover:text-orange-600 transition-colors font-medium">
+              Reviews
             </button>
             <button onClick={() => scrollToSection('contact')} className="block text-gray-700 hover:text-orange-600 transition-colors font-medium">
               Contact

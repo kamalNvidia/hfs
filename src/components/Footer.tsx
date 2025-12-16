@@ -52,6 +52,16 @@ export default function Footer() {
                   Menu
                 </button>
               </li>
+              <li>
+                <button onClick={() => document.getElementById('certificates')?.scrollIntoView({ behavior: 'smooth' })} className="text-gray-400 hover:text-orange-500 transition-colors">
+                  Credentials
+                </button>
+              </li>
+              <li>
+                <button onClick={() => document.getElementById('testimonials')?.scrollIntoView({ behavior: 'smooth' })} className="text-gray-400 hover:text-orange-500 transition-colors">
+                  Testimonials
+                </button>
+              </li>
             </ul>
           </div>
 
